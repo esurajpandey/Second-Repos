@@ -1,0 +1,8 @@
+# Object file
+*.o
+*.class
+*.exe
+*.zip
+
+# Ada Library Information
+*.ali
