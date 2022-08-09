@@ -33,8 +33,9 @@ public class KMP {
         int pos = -1;//index where found
         int i = 0,j=0;
 
-        int[] prefix = prefix_function(str);
+        int[] prefix = prefix_function(pat);
 
+        
         while(i<str.length()){
             if(str.charAt(i) == pat.charAt(j)){
                 j++;
