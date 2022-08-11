@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch testChain",
+            "request": "launch",
+            "mainClass": "testChain",
+            "projectName": "DSA_f0877ba"
+        },
+        {
+            "type": "java",
+            "name": "Launch longestString",
+            "request": "launch",
+            "mainClass": "longestString",
+            "projectName": "DSA_f0877ba"
+        },
+        {
+            "type": "java",
             "name": "Launch longestIncreasingSequences",
             "request": "launch",
             "mainClass": "longestIncreasingSequences",

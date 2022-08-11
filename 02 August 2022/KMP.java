@@ -34,8 +34,6 @@ public class KMP {
         int i = 0,j=0;
 
         int[] prefix = prefix_function(pat);
-
-        
         while(i<str.length()){
             if(str.charAt(i) == pat.charAt(j)){
                 j++;
